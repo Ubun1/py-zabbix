@@ -2,7 +2,7 @@
 from setuptools import setup
 from pyzabbix import __version__
 
-setup(name='py-zabbix',
+setup(name='pyzabbix',
       version=__version__,
       description='Python module to work with zabbix.',
       long_description=open('README.rst', 'r').read(),
