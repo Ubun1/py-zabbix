@@ -2,7 +2,7 @@
 from setuptools import setup
 from pyzabbix import __version__
 
-setup(name='py-zabbix',
+setup(name='pyzabbix',
       version=__version__,
       description='Python module to work with zabbix.',
       long_description=open('README.rst', 'r').read(),
@@ -10,7 +10,7 @@ setup(name='py-zabbix',
       author='Alexey Dubkov',
       author_email='alexey.dubkov@gmail.com',
       test_suite='tests',
-      packages=['pyzabbix', 'zabbix'],
+      packages=['pyzabbix'],
       tests_require=['mock'],
       classifiers=[
           'Development Status :: 5 - Production/Stable',
